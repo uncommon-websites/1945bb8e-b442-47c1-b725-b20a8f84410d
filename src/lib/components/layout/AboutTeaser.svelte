@@ -23,7 +23,7 @@ A minimalist teaser for the about page.
 	const teamMember: TeamMember = {
 		name: "Armin Ronacher & Colin Hanna",
 		role: "Co-founders",
-		image: "/generated/image-a-professional-male-founder-in-a-modern-.webp"
+		image: "/generated/image-two-professional-founders-collaborating-.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"When we realized AI was changing everything about how we work, we saw email sitting there—this open protocol we all use—and knew it had to become the foundation for user-controlled AI interaction. Not because email is perfect, but because you already own it."`}
+				text={`"I spent years building open protocols because I believed the best technology serves human agency, not the other way around. When Colin and I saw AI tools fragmenting workflows and taking control away from users, we knew email—this universal protocol everyone already owns—had to become the foundation for something better. We're not here to replace human judgment. We're here to strengthen it."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

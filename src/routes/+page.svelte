@@ -110,8 +110,8 @@
 />
 <AboutTeaser />
 <CallToAction
-	title="Reclaim control of your inbox"
-	subtitle="Join early adopters today"
-	description="Start with 20 email threads free. No credit card required. Experience email as an intelligent command center built on open protocols you own. Your data, your AI, your control."
-	imageSrc="/generated/image-a-cheerful-developer-sits-at-a-tidy-desk.webp"
+	title="Stop letting fragmented tools control your workflow"
+	subtitle="Start with 20 threads free"
+	description="Join knowledge workers at tech companies who've reclaimed hours daily by embedding AI directly into their inbox. Built on open protocols you own, no vendor lock-in, no credit card required. Your data stays yours. Your decisions stay yours."
+	imageSrc="/generated/image-a-focused-developer-smiling-while-workin.webp"
 />
