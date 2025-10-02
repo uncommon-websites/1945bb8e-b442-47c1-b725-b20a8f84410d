@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Armin Ronacher & Colin Hanna",
+		role: "Co-founders",
+		image: "/generated/image-a-professional-male-founder-in-a-modern-.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"When we realized AI was changing everything about how we work, we saw email sitting there—this open protocol we all use—and knew it had to become the foundation for user-controlled AI interaction. Not because email is perfect, but because you already own it."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
