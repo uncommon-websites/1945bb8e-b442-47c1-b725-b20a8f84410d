@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Your inbox, powered by AI you control"
+	subtitle="Transform email into an intelligent command center with natural language control over your data and connections."
+	imageSrc="/generated/image-a-modern-indoor-lounge-space-with-a-styl.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by forward-thinking teams"
+	logoUrls={[
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/github.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
