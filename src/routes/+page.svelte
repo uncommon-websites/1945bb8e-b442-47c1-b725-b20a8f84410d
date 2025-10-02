@@ -33,35 +33,35 @@
 />
 
 <Summary
-	title="Building email's future"
-	text="Earendil embeds AI directly into your inbox, transforming email into an intelligent command center you control. We serve knowledge workers at tech companies who waste hours context-switching between fragmented tools, enabling them to manage data and connections through natural language without losing control to vendor lock-in."
+	title="Reclaiming human agency"
+	text="Earendil transforms email into an intelligent command center by embedding AI directly into your inbox. We serve knowledge workers at tech companies frustrated by fragmented workflows, enabling natural language control over data and connections without vendor lock-in. Built on open email protocols you already own, Earendil strengthens human agency instead of eroding it."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Marcus Chen",
-			position: "Engineering Lead",
-			company: "Helios Labs",
+			name: "Keiko Tanaka",
+			position: "VP Engineering",
+			company: "Prism Technologies",
 			quote:
-				"Earendil eliminated the 2 hours I was losing daily to context-switching between email and AI tools. Having natural language control directly in my inbox means I can query our data, schedule meetings, and manage workflows without ever leaving the conversation thread.",
-			image: "/generated/image-a-professional-asian-male-engineer-stand.webp"
+				"We reclaimed 12 hours per week per engineer by eliminating context switches between Slack, email, and five different AI tools. Earendil's command center approach means our team controls everything through natural language in the inbox they already live in.",
+			image: "/generated/image-professional-asian-woman-engineer-confid.webp"
 		},
 		{
-			name: "Amara Williams",
-			position: "VP of Product",
-			company: "Tessera AI",
+			name: "Jordan Mitchell",
+			position: "CTO & Co-founder",
+			company: "Axiom Labs",
 			quote:
-				"The open protocol foundation gave us confidence we'd never have vendor lock-in. We control our data completely, choose which AI models we use, and maintain full ownership of our communication infrastructure. That's worth more than any feature.",
-			image: "/generated/image-a-professional-black-female-leader-in-a-.webp"
+				"Data sovereignty was non-negotiable for us. Earendil's open protocol foundation eliminated vendor lock-in risk entirely while cutting our AI tooling costs by 60%. We own our infrastructure, choose our models, and maintain complete control.",
+			image: "/generated/image-professional-black-man-founder-confident.webp"
 		},
 		{
-			name: "Diego Ramirez",
-			position: "Founder & CEO",
-			company: "Cascade Systems",
+			name: "Layla Hassan",
+			position: "Head of Operations",
+			company: "Vertex Systems",
 			quote:
-				"We consolidated five different tools into Earendil and cut our software spend by $4,200 monthly. More importantly, our team's response time improved by 40% because everything flows through one intelligent command center they already live in.",
-			image: "/generated/image-a-professional-latino-male-founder-in-a-.webp"
+				"After consolidating seven fragmented tools into Earendil, we saved $5,800 monthly and reduced onboarding time by half. Our team's coordination improved dramatically because everything flows through one intelligent system they already know.",
+			image: "/generated/image-professional-middle-eastern-woman-execut.webp"
 		}
 	]}
 />
@@ -71,39 +71,39 @@
 	subtitle="Transform your inbox into an intelligent command center while maintaining full control over your AI interactions and data."
 	features={[
 		{
-			title: "Natural language control",
+			title: "Eliminate context-switching",
 			description:
-				"Command your email with natural language to trigger AI workflows, query data, and manage connections without leaving your inbox.",
+				"Trigger AI workflows, query data, and manage connections through natural language directly in your inbox. Stop wasting hours jumping between fragmented tools.",
 			icon: IconCommand
 		},
 		{
-			title: "Your AI, your choice",
+			title: "Your AI, your rules",
 			description:
-				"Choose which AI models you interact with and maintain complete control over your data. No vendor lock-in, no hidden algorithms deciding for you.",
+				"Choose which AI models you use and maintain complete ownership of your data. No vendor lock-in, no algorithms deciding for you.",
 			icon: IconShield
 		},
 		{
-			title: "Open protocol foundation",
+			title: "Open protocols, not walled gardens",
 			description:
 				"Built entirely on open email protocols you already own, ensuring your communication infrastructure remains under your control forever.",
 			icon: IconMail
 		},
 		{
-			title: "Intelligent context",
+			title: "Context that actually helps",
 			description:
-				"Semantic clustering automatically organizes disparate data types into a real-time personal data lake, giving AI the context it needs to be truly helpful.",
+				"Semantic clustering organizes your data into a real-time personal data lake, giving AI the context it needs to deliver genuinely useful responses.",
 			icon: IconBrain
 		},
 		{
-			title: "Developer-friendly",
+			title: "Built for developers",
 			description:
-				"Open-source first architecture with webhooks and APIs that let you build custom integrations and extend functionality to match your workflow.",
+				"Open-source architecture with webhooks and APIs lets you extend functionality and build custom integrations that match your exact workflow.",
 			icon: IconCode
 		},
 		{
-			title: "Privacy by design",
+			title: "Privacy that strengthens agency",
 			description:
-				"Your data stays yours with user-controlled infrastructure that strengthens human agency instead of eroding it.",
+				"User-controlled infrastructure designed to amplify human decision-making, not replace it. Your data stays yours, your choices stay yours.",
 			icon: IconLock
 		}
 	]}
