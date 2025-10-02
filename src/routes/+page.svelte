@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	
+	// Icons
+	import IconCommand from "~icons/lucide/command";
+	import IconShield from "~icons/lucide/shield";
+	import IconMail from "~icons/lucide/mail";
+	import IconBrain from "~icons/lucide/brain";
+	import IconCode from "~icons/lucide/code";
+	import IconLock from "~icons/lucide/lock";
 </script>
 
 <CenteredTextOnlyHero
@@ -25,60 +33,78 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Building email's future"
+	text="Earendil embeds AI directly into your inbox, transforming email into an intelligent command center you control. We serve knowledge workers at tech companies who waste hours context-switching between fragmented tools, enabling them to manage data and connections through natural language without losing control to vendor lock-in."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Chen",
+			position: "Engineering Lead",
+			company: "Helios Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Earendil eliminated the 2 hours I was losing daily to context-switching between email and AI tools. Having natural language control directly in my inbox means I can query our data, schedule meetings, and manage workflows without ever leaving the conversation thread.",
+			image: "/generated/image-a-professional-asian-male-engineer-stand.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Amara Williams",
+			position: "VP of Product",
+			company: "Tessera AI",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The open protocol foundation gave us confidence we'd never have vendor lock-in. We control our data completely, choose which AI models we use, and maintain full ownership of our communication infrastructure. That's worth more than any feature.",
+			image: "/generated/image-a-professional-black-female-leader-in-a-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Diego Ramirez",
+			position: "Founder & CEO",
+			company: "Cascade Systems",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We consolidated five different tools into Earendil and cut our software spend by $4,200 monthly. More importantly, our team's response time improved by 40% because everything flows through one intelligent command center they already live in.",
+			image: "/generated/image-a-professional-latino-male-founder-in-a-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for human agency"
+	subtitle="Transform your inbox into an intelligent command center while maintaining full control over your AI interactions and data."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Natural language control",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Command your email with natural language to trigger AI workflows, query data, and manage connections without leaving your inbox.",
+			icon: IconCommand
 		},
 		{
-			title: "Data Analysis",
+			title: "Your AI, your choice",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Choose which AI models you interact with and maintain complete control over your data. No vendor lock-in, no hidden algorithms deciding for you.",
+			icon: IconShield
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Open protocol foundation",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Built entirely on open email protocols you already own, ensuring your communication infrastructure remains under your control forever.",
+			icon: IconMail
+		},
+		{
+			title: "Intelligent context",
+			description:
+				"Semantic clustering automatically organizes disparate data types into a real-time personal data lake, giving AI the context it needs to be truly helpful.",
+			icon: IconBrain
+		},
+		{
+			title: "Developer-friendly",
+			description:
+				"Open-source first architecture with webhooks and APIs that let you build custom integrations and extend functionality to match your workflow.",
+			icon: IconCode
+		},
+		{
+			title: "Privacy by design",
+			description:
+				"Your data stays yours with user-controlled infrastructure that strengthens human agency instead of eroding it.",
+			icon: IconLock
 		}
 	]}
 />
